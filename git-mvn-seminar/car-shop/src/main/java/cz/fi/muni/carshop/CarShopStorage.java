@@ -7,7 +7,7 @@ import java.util.Map;
 import cz.fi.muni.carshop.entities.Car;
 import cz.fi.muni.carshop.enums.CarTypes;
 
-public class CarShopStorage {
+public class 	CarShopStorage {
 
 	private static CarShopStorage instance;
 	private Map<CarTypes, List<Car>> cars = new HashMap<>();
